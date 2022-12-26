@@ -1,0 +1,110 @@
+ /* Universal box sizing */
+ * {   
+    box-sizing: border-box;
+    }
+
+    
+
+body {
+    
+  background-color: black; 
+    
+}
+
+.topnav{
+    display: flex;
+    background-color: #937758;
+    justify-content: space-around;
+    font-size: 30px;
+    color: #374b50;
+    text-decoration: none;
+    align-items: center;
+    
+
+}
+
+a.topnav:hover {
+    color: white;
+  }
+
+.container {
+  position: relative;
+  width: 100%;
+  }
+  
+  .container img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .container h1{
+    color: white;
+    text-align: center;
+    background-color: black;
+    border-radius: 10px;
+    
+  }
+
+   .buttons {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+
+  .container .btn { 
+    
+    background-color: #937758;
+    color: #374b50;
+    font-size: 30px;
+    padding: 50px 70px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+    margin: 50px;
+
+  }
+  .container .btn:hover {
+    background-color: black;
+    color: white;
+  }
+
+.column{
+    color: white;
+    
+}
+
+ /* Create two equal columns that float next to
+ each other */
+ .column {
+    float:left;
+    width:50%;   
+    padding: 15px; 
+    border: 10px;
+    border-radius: 10px;  
+
+}
+ 
+/* Clear floats after the columns */
+.content:after {
+   content: "";   
+    display: table;
+    clear:both;
+}
+
+.reservation{
+  background-color: #d9cfc5;
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  background-color: #937758;
+  
+}
